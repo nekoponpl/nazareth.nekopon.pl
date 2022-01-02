@@ -1,0 +1,3 @@
+# I'm not falling for the separate partitions meme
+fe53b0a77cc59726.b none swap sw
+fe53b0a77cc59726.a / ffs rw,noatime,wxallowed 1 1

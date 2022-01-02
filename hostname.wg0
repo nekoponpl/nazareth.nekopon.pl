@@ -1,0 +1,7 @@
+inet 192.168.69.1 255.255.255.0 192.168.69.255
+inet6 fd69:6969:6969::1/48
+wgport 51820
+wgkey <hi>
+
+# device 1
+wgpeer <hi but public> wgaip fd69:6969:6969::2/128 wgaip 192.168.69.2/32

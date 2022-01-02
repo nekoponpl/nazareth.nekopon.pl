@@ -1,0 +1,55 @@
+# https://github.com/Zanthed/hardened-configs/tree/master/sshd_config
+Protocol 2
+Port 22
+#AddressFamily any
+ListenAddress 0.0.0.0
+ListenAddress ::
+
+Banner /etc/ssh/banner
+
+HostKey /etc/ssh/ssh_host_ed25519_key
+RekeyLimit default 1h
+
+Ciphers chacha20-poly1305@openssh.com
+HostKeyAlgorithms ssh-ed25519
+KexAlgorithms curve25519-sha256
+MACs hmac-sha2-512-etm@openssh.com
+
+PermitUserRC no
+
+SyslogFacility AUTH
+LogLevel INFO
+
+LoginGraceTime 90
+PermitRootLogin no
+PermitEmptyPasswords no
+StrictModes yes
+MaxAuthTries 5
+MaxSessions 5
+PubkeyAuthentication yes
+AuthorizedKeysFile	.ssh/authorized_keys
+
+HostbasedAuthentication no
+IgnoreUserKnownHosts yes
+IgnoreRhosts yes
+
+PasswordAuthentication no
+PermitEmptyPasswords no
+ChallengeResponseAuthentication no
+KerberosAuthentication no
+GSSAPIAuthentication no
+GSSAPICleanupCredentials yes
+
+AllowAgentForwarding no
+X11Forwarding no
+
+PrintMotd no
+TCPKeepAlive no
+UseDNS yes
+Compression no
+PermitUserEnvironment no
+
+ClientAliveInterval 30
+ClientAliveCountMax 5
+
+Subsystem	sftp	/usr/libexec/sftp-server

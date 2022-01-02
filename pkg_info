@@ -1,0 +1,42 @@
+certbot-1.18.0      client for certificate authorities using ACME protocols
+discount-2.2.6      fast C implementation of Markdown
+dovecot-2.3.16p1v0  compact IMAP/POP3 server
+git-2.33.0          distributed version control system
+htop-3.0.5pl20210418 interactive process viewer
+micro-2.0.8p0       modern and intuitive terminal-based text editor
+nano-5.8            simple editor, inspired by Pico
+neofetch-7.1.0      system information tool written in bash
+nextcloud-22.2.3p0  easy and universal access to shared and/or personal files
+nginx-1.20.1p1      robust and small HTTP server and mail proxy server
+nginx-stream-1.20.1 nginx TCP/UDP proxy module
+nmap-7.91p0         scan ports and fingerprint stack of network hosts
+opensmtpd-extras-6.7.1v0 extras for smtpd
+opensmtpd-filter-rspamd-0.1.7p0 rspamd integration to the OpenSMTPD daemon
+opensmtpd-filter-senderscore-0.1.1p0 SenderScore integration to the OpenSMTPD daemon
+p5-Image-ExifTool-12.30 read and write meta information in image/audio/video files
+pecl74-imagick-3.5.1 PHP support for the ImageMagick library
+pecl74-redis-5.3.4p0 PHP interface to redis
+php-7.4.27          server-side HTML-embedded scripting language
+php-bz2-7.4.27      bzip2 compression extensions for php
+php-curl-7.4.27     curl URL library extensions for php
+php-gd-7.4.27       image manipulation extensions for php
+php-gmp-7.4.27      gmp math library support for php
+php-intl-7.4.27     intl library support for php
+php-pdo_pgsql-7.4.27 PDO pgsql database access extensions for php
+php-zip-7.4.27      zip functions for php
+postgresql-client-13.4p0 PostgreSQL RDBMS (client)
+postgresql-server-13.4p0 PostgreSQL RDBMS (server)
+py3-markdown-2.6.11p5 text-to-HTML conversion tool
+py3-psycopg2-2.8.6  PostgreSQL database adapter for Python
+quirks-4.53         exceptions to pkg_add rules
+redis-6.2.6         persistent key-value database
+rspamd-3.0          event-driven spam filtering system in C/Lua
+screen-4.8.0p0      multi-screen window manager
+speedtest-cli-2.1.3 command-line client for speedtest.net bandwidth tester
+synapse-1.47.1      open network for secure, decentralized communication
+tor-0.4.6.7         anonymity service using onion routing
+unzip-6.0p14        extract, list & test files in a ZIP archive
+wget-1.21.2         retrieve files from the web via HTTP, HTTPS and FTP
+znc-1.8.2p0         advanced IRC bouncer
+zsh-5.8p0           Z shell, Bourne shell-compatible
+zsh-syntax-highlighting-0.7.1 fish like syntax highlighting for zsh

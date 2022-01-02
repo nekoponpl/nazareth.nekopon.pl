@@ -1,0 +1,4 @@
+dhcp
+inet6 2a03:4000:6:e5e6::1 68
+
+!route add -inet6 default fe80::1%vio0

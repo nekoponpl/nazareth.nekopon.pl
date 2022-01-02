@@ -1,0 +1,11 @@
+Log notice file /var/log/tor/notices.log
+Log debug file /var/log/tor/debug.log
+
+RunAsDaemon 1
+
+DataDirectory /var/tor
+
+HiddenServiceDir /var/tor/nekoponmvppnutba7awvelxayxoutkolpplmmp7mxmfrobswqkbi5kad.onion/
+HiddenServicePort 80 127.0.0.1:8080
+
+User _tor

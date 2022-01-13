@@ -1,6 +1,6 @@
-# infrastructure
+# nazareth.nekopon.pl
 
-Configs that I use on my OpenBSD server.  
+Configs that I use on my OpenBSD VPS.  
 
 ---
 

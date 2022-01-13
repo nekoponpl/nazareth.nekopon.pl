@@ -1,42 +1,168 @@
+ImageMagick-6.9.12.19 image processing tools
+aom-3.1.2           Alliance for Open Media AV1 video codec
+bash-5.1.8          GNU Bourne Again Shell
+blas-3.8.0p0        Basic Linear Algebra Subprograms
+bzip2-1.0.8p0       block-sorting file compressor, unencumbered
+cblas-1.0p7         C interface to the BLAS library
 certbot-1.18.0      client for certificate authorities using ACME protocols
+curl-7.79.0         transfer files with FTP, HTTP, HTTPS, etc.
+cvsps-2.1p2         generate patchsets from CVS repositories
+dav1d-0.9.2         small and fast AV1 decoder
+desktop-file-utils-0.26 utilities for dot.desktop entries
 discount-2.2.6      fast C implementation of Markdown
+djvulibre-3.5.27p6  view, decode and encode DjVu files
 dovecot-2.3.16p1v0  compact IMAP/POP3 server
+fftw3-3.3.8p1       C routines for computing the Discrete Fourier Transform
+fftw3-common-3.3.8p1 common files for the fftw3 packages
+gcc-libs-8.4.0p9    GNU compiler collection: support libs
+gdk-pixbuf-2.42.6   image data transformation library
+gettext-runtime-0.21p1 GNU gettext runtime libraries and programs
+giflib-5.1.6        tools and library routines for working with GIF images
 git-2.33.0          distributed version control system
+glib2-2.68.4        general-purpose utility library
+gtk-update-icon-cache-3.24.30 gtk+ icon theme caching utility
+hicolor-icon-theme-0.17 fallback theme of the icon theme specification
 htop-3.0.5pl20210418 interactive process viewer
+icu4c-69.1p0v0      International Components for Unicode
+jasper-2.0.32       reference implementation of JPEG-2000
+jbigkit-2.1         lossless image compression library, with lightweight version
+jpeg-2.1.1v0        SIMD-accelerated JPEG codec replacement of libjpeg
+lcms2-2.12          color management library
+libde265-1.0.7      open H.265 video codec implementation
+libevent-2.1.11     event notification library
+libexttextcat-3.4.5p0 UTF-8 aware language guessing library
+libffi-3.3p1        Foreign Function Interface
+libgcrypt-1.9.4     crypto library based on code used in GnuPG
+libgpg-error-1.42   error codes for GnuPG related software
+libheif-1.12.0      HEIF and AVIF file format decoder and encoder
+libiconv-1.16p0     character set conversion library
+libidn2-2.3.0p0     implementation of IDNA2008 internationalized domain names
+libimagequant-2.13.1 image quantization library
+libpsl-0.21.1       public suffix list library
+libraw-0.20.2       library for reading RAW files
+libsodium-1.0.18p1  library for network communications and cryptography
+libssh2-1.9.0       library implementing the SSH2 protocol
+libstemmer-2.1.0    stemming algorithms for text processing
+libunistring-0.9.7  manipulate Unicode strings
+libwebp-1.2.1       Google WebP image format conversion tool
+libxml-2.9.12       XML parsing library
+libxslt-1.1.34p1    XSLT C Library for GNOME
+libyajl-2.1.0       small JSON library written in ANSI C
+libyaml-0.2.2       YAML 1.1 parser and emitter written in C
+lua-5.1.5p7         powerful, light-weight programming language (version 5.1.5)
+lua-5.3.6           powerful, light-weight programming language (version 5.3.6)
+luajit-2.0.5pl20210608 just-in-time compiler for Lua
+lynis-3.0.6         security auditing tool
+lz4-1.9.3p0         fast BSD-licensed data compression
 micro-2.0.8p0       modern and intuitive terminal-based text editor
 nano-5.8            simple editor, inspired by Pico
 neofetch-7.1.0      system information tool written in bash
-nextcloud-22.2.3p0  easy and universal access to shared and/or personal files
+nghttp2-1.44.0      library for HTTP/2
 nginx-1.20.1p1      robust and small HTTP server and mail proxy server
 nginx-stream-1.20.1 nginx TCP/UDP proxy module
 nmap-7.91p0         scan ports and fingerprint stack of network hosts
+openjp2-2.4.0       open-source JPEG 2000 codec library
 opensmtpd-extras-6.7.1v0 extras for smtpd
 opensmtpd-filter-rspamd-0.1.7p0 rspamd integration to the OpenSMTPD daemon
 opensmtpd-filter-senderscore-0.1.1p0 SenderScore integration to the OpenSMTPD daemon
+p5-Error-0.17029    error/exception handling in an OO-ish way
 p5-Image-ExifTool-12.30 read and write meta information in image/audio/video files
-pecl74-imagick-3.5.1 PHP support for the ImageMagick library
-pecl74-redis-5.3.4p0 PHP interface to redis
-php-7.4.27          server-side HTML-embedded scripting language
-php-bz2-7.4.27      bzip2 compression extensions for php
-php-curl-7.4.27     curl URL library extensions for php
-php-gd-7.4.27       image manipulation extensions for php
-php-gmp-7.4.27      gmp math library support for php
-php-intl-7.4.27     intl library support for php
-php-pdo_pgsql-7.4.27 PDO pgsql database access extensions for php
-php-zip-7.4.27      zip functions for php
+p5-Mail-Tools-2.21p0 modules for handling mail with perl
+p5-Time-TimeDate-2.33 library for parsing and formatting dates and times
+pcre-8.44           perl-compatible regular expression library
+pcre2-10.36         perl-compatible regular expression library, version 2
+png-1.6.37          library for manipulating PNG images
 postgresql-client-13.4p0 PostgreSQL RDBMS (client)
 postgresql-server-13.4p0 PostgreSQL RDBMS (server)
+py3-ConfigArgParse-1.2.3p0 argparse replacement, allows options to be set via files/env
+py3-MarkupSafe-1.1.1p2 implements an XML/HTML/XHTML markup safe string
+py3-Pillow-8.3.2    Python Imaging Library (friendly fork of PIL)
+py3-PyNaCl-1.4.0p3  Python binding to the NaCl library
+py3-acme-1.18.0     ACME protocol implementation
+py3-asn1-0.4.8p2v0  ASN.1 library for Python
+py3-asn1-modules-0.2.7p1 collection of ASN.1 data structures for py-asn1
+py3-asn1crypto-1.4.0p0 fast ASN.1 parser and serializer
+py3-attrs-20.1.0p0  classes without boilerplate
+py3-automat-0.8.0p0 finite-state machines in Python
+py3-bcrypt-3.2.0    bcrypt blowfish password hashing for Python
+py3-bleach-2.0.0p3  easy whitelist-based HTML-sanitizing tool
+py3-blist-1.3.6p5   list-like type with better asymptotic performance
+py3-brotli-1.0.9p0  Python bindings for the Brotli compression library
+py3-canonicaljson-1.4.0 canonical JSON
+py3-certifi-2020.4.5.1p1 Python package to check certificates using the OpenBSD CA
+py3-cffi-1.13.2p2   Foreign Function Interface for Python calling C code
+py3-chardet-4.0.0p0 character encoding auto-detection in Python
+py3-configobj-5.0.6p3 config file reader and writer
+py3-constantly-15.1.0p2 symbolic constants in Python
+py3-cparser-2.19p1  C parser in pure Python
+py3-cryptography-3.4.8p0 cryptographic recipes and primitives for Python
+py3-daemonize-2.5.0p2 library to enable your code run as a daemon process
+py3-distro-1.6.0    provide information about the OS platform
+py3-frozendict-1.2p2 immutable dictionary
+py3-hamcrest-1.9.0p2 Hamcrest matchers for Python
+py3-html5lib-1.0.1p1 HTML parser/tokeniser based for HTML5
+py3-hyperlink-19.0.0p1 pure-Python implementation of immutable URLs
+py3-idna-2.10p0     Python library to support the IDNA protocol
+py3-ijson-3.1.4     iterative JSON parser
+py3-importlib_metadata-4.8.1 library providing an API for accessing packages metadata
+py3-incremental-17.5.0p2 versioning library for Python projects
+py3-jinja2-2.11.3   fast, optionally sandboxed, Python template engine
+py3-josepy-1.9.0    Javascript Object Signing and Encryption (JOSE)
+py3-jsonschema-3.2.0 implementation of JSON Schema validation for Python
+py3-libnacl-1.6.1p4 python bindings for libsodium/tweetnacl based on ctypes
+py3-lxml-4.3.3p5    Python binding for the libxml2 and libxslt libraries
+py3-macaroons-0.13.0p0 macaroon library for Python
 py3-markdown-2.6.11p5 text-to-HTML conversion tool
+py3-more-itertools-4.1.0p2 routines for operating on iterables beyond itertools
+py3-msgpack-0.6.2p2v0 messagepack (de)serializer
+py3-ndg-httpsclient-0.5.1p0 enhanced HTTPS support for httplib and urllib2
+py3-netaddr-0.7.19p4 network address representation and manipulation library
+py3-openssl-20.0.1p0 Python interface to the OpenSSL library
+py3-parsedatetime-2.5p2 parse human-readable date/time text
+py3-phonenumbers-8.12.6p0 port of Google's libphonenumber library
+py3-prometheus_client-0.7.1p2 python client for the prometheus monitoring system
+py3-psutil-5.4.3p5  library to retrieve system information and utilisation
 py3-psycopg2-2.8.6  PostgreSQL database adapter for Python
-quirks-4.53         exceptions to pkg_add rules
+py3-pyRFC3339-1.1   format dates according to RFC3339
+py3-pyrsistent-0.18.0 persistent/functional/immutable data structures
+py3-requests-2.26.0 elegant and simple HTTP library for Python
+py3-requests-toolbelt-0.9.1p0 utility belt for advanced users of python-requests
+py3-service_identity-18.1.0p3 service identity verification for pyOpenSSL/py-cryptography
+py3-setuptools-57.4.0v0 simplified packaging system for Python modules
+py3-signedjson-1.1p0 sign JSON with Ed25519 signatures
+py3-simplejson-3.17.2p1 JSON encoder/decoder
+py3-six-1.16.0      Python 2 and 3 compatibility library
+py3-sortedcontainers-2.1.0p2 Python Sorted Container Types
+py3-treq-18.6.0p0   HTTP library inspired by requests on top of Twisted Agents
+py3-twisted-20.3.0p3 asynchronous networking Python framework
+py3-typing_extensions-3.7.4.1p0 backported type hints for python >= 3.5
+py3-tz-2021.1p0     Python API for dealing with timezones
+py3-unpaddedbase64-1.1.0p1 Python module implementing Base64 without "=" padding
+py3-urllib3-1.26.6  HTTP library for Python
+py3-webencodings-0.5.1p3 character encoding aliases for legacy web content
+py3-werkzeug-0.12.1p8 WSGI utility collection
+py3-wheel-0.36.2p0  built-package format for Python
+py3-yaml-5.3.1p1    YAML parser and emitter in Python
+py3-zipp-3.5.0      backport of pathlib-compatible object wrapper for zip files
+py3-zopecomponent-4.2.2p5 component architecture from Zope
+py3-zopeevent-4.3.0p2 very basic event publishing system from Zope
+py3-zopeinterface-5.4.0 object interface infrastructure from Zope
+python-3.8.12       interpreted object-oriented programming language
+quirks-4.54         exceptions to pkg_add rules
 redis-6.2.6         persistent key-value database
 rspamd-3.0          event-driven spam filtering system in C/Lua
 screen-4.8.0p0      multi-screen window manager
+shared-mime-info-2.1 shared mime database for desktops
 speedtest-cli-2.1.3 command-line client for speedtest.net bandwidth tester
+sqlite3-3.35.5p0    embedded SQL implementation
 synapse-1.47.1      open network for secure, decentralized communication
+tiff-4.3.0          tools and library routines for working with TIFF images
 tor-0.4.6.7         anonymity service using onion routing
 unzip-6.0p14        extract, list & test files in a ZIP archive
 wget-1.21.2         retrieve files from the web via HTTP, HTTPS and FTP
+x265-3.5            free H.265/HEVC encoder
+xz-5.2.5            LZMA compression and decompression tools
 znc-1.8.2p0         advanced IRC bouncer
 zsh-5.8p0           Z shell, Bourne shell-compatible
 zsh-syntax-highlighting-0.7.1 fish like syntax highlighting for zsh
+zstd-1.5.0          zstandard fast real-time compression algorithm

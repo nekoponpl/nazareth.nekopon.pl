@@ -88,8 +88,9 @@ server {
 	add_header Cross-Origin-Resource-Policy "same-origin" always;
 	add_header Permissions-Policy "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), clipboard-read=(), clipboard-write=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), sync-xhr=(), xr-spatial-tracking=()" always;
 	# Google's web.dev/measure, Lighthouse and scrapers won't be able to use robots.txt with connect-src 'none'. Sad.
-	add_header Content-Security-Policy "default-src 'none'; child-src 'none'; connect-src 'self'; font-src 'none'; img-src 'self'; manifest-src 'none'; script-src 'none'; style-src 'self'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'" always;
+	add_header Content-Security-Policy "default-src 'self'; child-src 'none'; connect-src 'self'; font-src 'none'; img-src 'self'; manifest-src 'none'; script-src 'none'; style-src 'self'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'" always;
 	add_header X-Frame-Options "DENY" always;
+	add_header Onion-Location http://nekoponmvppnutba7awvelxayxoutkolpplmmp7mxmfrobswqkbi5kad.onion$request_uri;
 
 	location / { try_files $uri $uri/ =404; }
 
@@ -100,6 +101,7 @@ server {
 		add_header Content-Security-Policy "default-src 'none'; child-src 'none'; connect-src 'self'; font-src 'none'; img-src 'self'; manifest-src 'none'; script-src 'none'; style-src 'self'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'" always;
 		add_header X-Frame-Options "DENY" always;
 		add_header Access-Control-Allow-Origin *;
+		add_header Onion-Location http://nekoponmvppnutba7awvelxayxoutkolpplmmp7mxmfrobswqkbi5kad.onion$request_uri;
 		return 200 '{"m.homeserver": {"base_url": "https://matrix.nekopon.pl:443"}}';
 		default_type application/json;
 	}
@@ -116,6 +118,7 @@ server {
 		add_header Permissions-Policy "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), clipboard-read=(), clipboard-write=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), sync-xhr=(), xr-spatial-tracking=()" always;
 		add_header Content-Security-Policy "default-src 'none'; child-src 'none'; connect-src 'self'; font-src 'none'; img-src 'self'; manifest-src 'none'; script-src 'none'; style-src 'self'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'" always;
 		add_header X-Frame-Options "DENY" always;
+		add_header Onion-Location http://nekoponmvppnutba7awvelxayxoutkolpplmmp7mxmfrobswqkbi5kad.onion$request_uri;
 	}
 
 	location /site/img/gravatar.png {
@@ -125,6 +128,7 @@ server {
 		add_header Permissions-Policy "accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), clipboard-read=(), clipboard-write=(), display-capture=(), document-domain=(), encrypted-media=(), fullscreen=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), magnetometer=(), microphone=(), midi=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), sync-xhr=(), xr-spatial-tracking=()" always;
 		add_header Content-Security-Policy "default-src 'none'; child-src 'none'; connect-src 'self'; font-src 'none'; img-src 'self'; manifest-src 'none'; script-src 'none'; style-src 'self'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'" always;
 		add_header X-Frame-Options "DENY" always;
+		add_header Onion-Location http://nekoponmvppnutba7awvelxayxoutkolpplmmp7mxmfrobswqkbi5kad.onion$request_uri;
 
 		proxy_pass https://secure.gravatar.com/avatar/b1ba96bc4847f45193a62856d3592063;
 		proxy_pass_request_headers off;
